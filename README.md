@@ -1,6 +1,7 @@
-# 🍕 Fast React Pizza Co. (part of the course)
+# 🍕 Fast React Pizza Co. — React Application with Redux Toolkit (part of the course)
 
-A project built with React, Redux, and TailwindCSS to practice state management, modular architecture, and modern UI design. This project was created as part of a course to enhance my React and Redux and TaliwindCSS skills and is also part of my personal portfolio. The application focuses on both logic and UI.
+Fast React Pizza Co. is a frontend application built with React and Redux Toolkit. The project was developed as part of a React course and serves as a portfolio piece focused on strengthening practical skills in global state management and working with external APIs. The application emphasizes clean Redux architecture, slice-based state logic, and a modern, responsive user interface built with TailwindCSS.
+
 
 ---
 
@@ -18,61 +19,56 @@ A project built with React, Redux, and TailwindCSS to practice state management,
 
 ## 🦄 Features
 
-Here’s what you can do with **Fast React Pizza Co**:
+Key features of **Fast React Pizza Co.**:
 
-- **State Management with Redux**  
-  The application demonstrates how to manage global state using Redux and `@reduxjs/toolkit`.
+- **Global State Management with Redux Toolkit**
+  Application state is managed using Redux Toolkit, providing a predictable and scalable state architecture.
 
-- **Slice-Based Logic**  
-  State is divided into slices for better modularity and scalability.
+- **Slice-Based Architecture**
+  State logic is divided into slices, improving code organization and maintainability.
 
-- **Dynamic UI Components**  
-  The app includes reusable and dynamic components for better maintainability.
+- **Reusable and Dynamic Components**
+  The UI is built using modular, reusable React components.
 
-- **API Integration**  
-  The app fetches data from external APIs to provide real-time updates.
+- **External API Integration**
+  Data is fetched from a provided external API, including proper handling of asynchronous state.
 
-- **Modern UI with TailwindCSS**  
-  TailwindCSS is used to create a responsive and visually appealing design.
+- **Responsive UI with TailwindCSS**
+  TailwindCSS is used to build a clean, responsive interface with a modern layout.
+
 
 ---
 
 ## 🎯 Application Flow
 
-The application is based on Redux's unidirectional data flow:
+The application follows Redux’s unidirectional data flow:
 
-1. **Dispatch Actions**  
-   Components dispatch actions to trigger state changes.
+1. **Actions are dispatched** from React components
+   
+2. **Reducers update the state** based on dispatched actions
 
-2. **Reducers Update State**  
-   Reducers handle actions and update the state accordingly.
-
-3. **State Propagation**  
-   The updated state is propagated to all subscribed components.
+3. **Updated state is propagated** to subscribed components
 
 ---
 
 ## 🧠 What I Learned
 
-Working on this project helped me better understand how to structure and manage state in a React-Redux application.
+Working on this project helped me solidify my understanding of React and Redux application architecture.
 
-- **Redux Toolkit**  
-  I learned how to use `createSlice`, `configureStore`, and other utilities provided by Redux Toolkit to simplify Redux development.
+- Improved proficiency with **Redux Toolkit** and its core utilities
 
-- **Slice-Based State Management**  
-  Dividing state into slices made the application more modular and easier to maintain.
+- Better understanding of **global state management** and Redux data flow
 
-- **TailwindCSS**  
-  I gained experience designing modern and responsive UIs using TailwindCSS.
+- Stronger skills in building responsive layouts and custom styles using **TailwindCSS**
 
 ---
 
 ## 💭 Possible Improvements
 
-- Adding more slices for additional features
-- Enhancing the UI with animations and advanced styling
+- Adding new slices to extend application functionality
+- Enhancing the UI with animations and more advanced styling
 - Implementing unit and integration tests
-- PayCart
+- Improving overall user experience and accessibility
 
 ---
 
@@ -94,5 +90,11 @@ To run the project locally:
    ```
 
 4. Open your browser and navigate to the provided local development URL.
+
+---
+
+## 🎥 Video
+
+https://github.com/user-attachments/assets/3127fb1d-596f-4c19-937e-28e9c6f95f57
 
 ---
